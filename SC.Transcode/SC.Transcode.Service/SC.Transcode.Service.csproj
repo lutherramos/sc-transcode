@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SQS" Version="3.3.102.13" />
+    <PackageReference Include="Refit" Version="5.1.67" />
+    <PackageReference Include="SC.Core.ConfigurationManagement" Version="1.0.0-Beta" />
+    <PackageReference Include="SC.Core.Data.Model" Version="1.0.0-Beta" />
+    <PackageReference Include="SC.Core.Data.Sql" Version="1.0.0-Beta" />
+    <PackageReference Include="SC.Core.ExecutionService" Version="1.0.0-Beta" />
+    <PackageReference Include="SC.Core.FileSystemService" Version="1.0.0-Beta" />
+    <PackageReference Include="SC.Core.Logging" Version="1.0.0-Beta" />
+    <PackageReference Include="SC.Core.Lookuplist" Version="1.0.0-Beta" />
+    <PackageReference Include="SC.Core.NamingEngineService" Version="1.0.0-Beta" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.7.0" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+    <PackageReference Include="ValueInjecter" Version="3.2.0" />
+  </ItemGroup>
+  
+</Project>
